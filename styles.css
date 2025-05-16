@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  max-width: 600px;
+  max-width: 700px;
   margin: 2rem auto;
   padding: 0 1rem;
   background-color: #f0f0f0;
@@ -16,6 +16,11 @@ h1 {
   color: #0055aa;
 }
 
+h2 {
+  color: #003366;
+  margin-top: 2rem;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -27,4 +32,23 @@ li {
   padding: 1rem;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+a {
+  color: #0055aa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.profilovka {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  display: block;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
